@@ -3,7 +3,8 @@
 
 #include <cppunit/extensions/HelperMacros.h>
 
-class test : public CPPUNIT_NS::TestFixture {
+class test : public CPPUNIT_NS::TestFixture
+{
     CPPUNIT_TEST_SUITE(test);
 
     CPPUNIT_TEST(testJordan);
@@ -17,4 +18,3 @@ private:
 };
 
 #endif	/* TEST_H */
-

@@ -1,6 +1,7 @@
 #include "animals.h";
 
-int main() {
+int main()
+{
     Platypus Joan;
     Joan.Introduce("Joan");
     Joan.CanMilkBabies();
